@@ -1,0 +1,815 @@
+  body {
+ margin: 0;
+ padding: 0;
+box-sizing: border-box;
+ background: #fcfcfc;
+height: 5000px;
+ }
+                                        
+.container {
+ margin: 0 40px;
+ }
+/*Start Nav Bar*/
+/*intro-navbar*/
+
+@media (max-width:820px) {
+.intro-nav h1 {
+font-size: 15px !important;
+}
+.intro-content h3 {
+font-size: 23px !important;
+}
+.intro-content p {
+font-size: 12px !important;
+}
+.intro-content button {
+margin-bottom: 5px;
+margin-left: 25%;
+}
+.navbar {
+display: none
+}
+.sm-navbar {
+display: block !important;
+}
+}
+                                        
+.intro {
+background-color: #232525;
+}
+                                        
+.intro-nav {
+padding-top: 30px;
+display: flex;
+justify-content: space-between;
+}
+                                        
+.intro-nav h1 {
+color: #ffffff;
+font-size: 25px;
+font-weight: bolder;
+margin: 0px;
+}
+/*large navbar*/
+                                        
+.navbar .option {
+display: inline-block;
+color: #5f6767;
+cursor: pointer;
+padding-left: 20px;
+}
+                                        
+.navbar .option:hover {
+color: #a2dc4d;
+}
+                                        
+.dropdown {
+position: relative;
+display: inline-block;
+}
+                                        
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #000;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+z-index: 1;
+margin-top: 8px;
+}
+                                        
+.dropdown-content a {
+color: #5f6767;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+                                        
+.dropdown-content a:hover {
+background-color: rgba(206, 194, 194, 0.3);
+color: #a2dc4d;
+}
+                                        
+.dropdown:hover .dropdown-content {
+display: block;
+}
+                                        
+.dropdown:hover .dropbtn {
+background-color: #a2dc4d;
+}
+                                        
+.intro-nav button {
+width: 75px;
+color: #fff;
+padding: 8px;
+border-radius: 25px;
+background-color: #a2dc4d;
+margin-left: -15px;
+border: 1px solid #a2dc4d;
+cursor: pointer;
+font-size: 14px;
+}
+/*small navbar*/
+                                        
+.sm-navbar {
+display: none;
+}
+                                        
+.sm-navbar .navbar-btn {
+width: 60px;
+color: #fff;
+padding: 10px;
+border-radius: 14px;
+background-color: #a2dc4d;
+margin-left: -15px;
+border: 1px solid #a2dc4d;
+cursor: pointer;
+font-size: 30px;
+position: relative;
+}
+                                        
+                                    
+.options::before{
+content: "";
+border-bottom: 17px solid #000;
+border-left: 17px solid transparent;
+border-right: 17px solid transparent;
+position: absolute;
+top: -16px;
+right: -1px;     
+}                                 
+.sm-navbar .options {
+    display: none;
+background:#000;
+width: 30%;
+padding: 25px;
+position: absolute;
+right: 50px;
+top: 105px;
+text-align: center;
+}
+                                        
+.sm-navbar .options a {
+display: block;
+text-decoration: none;
+color:#717171;
+padding: 10px;
+border-bottom: 1px solid#1e1e1e;
+}
+.sm-navbar:hover .options  {
+display: block !important;
+}
+.options a:hover {
+color: #a2dc4d;
+}
+/*intro-content*/
+                                        
+.intro-content {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+                                        
+.intro-content h3 {
+color: #fff;
+font-size: 35px;
+margin-bottom: 0;
+margin-top: 160px;
+}
+                                        
+.intro-content p {
+color: #5f6767;
+text-align: center;
+line-height: 1.8;
+}
+                                        
+.intro-content button {
+color: #a2dc4d;
+border: 2px solid #a2dc4d;
+background: transparent;
+font-size: 15px;
+padding: 12px;
+width: 145px;
+}
+                                        
+.btn-list {
+display: inline-block;
+margin-bottom: 15px;
+}
+/*intro-slider
+
+        #intro-slider .slider {
+            margin: 0;
+            background: #e1e1e1;
+        }
+
+        #intro-slider {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .slider {
+            position: relative;
+            width: 280%;
+            animation: 10s slidy infinite;
+            left: 20%;
+            top: 20%;
+        }
+
+        .slider img {
+            width: 20%;
+            height: auto;
+            display: inline-block;
+            position: inherit;
+        }
+
+        @keyframes slidy {
+            0% {
+                left: 0%;
+            }
+            20% {
+                left: 0%;
+            }
+            25% {
+                left: -100%;
+            }
+            45% {
+                left: -100%;
+            }
+            50% {
+                left: -200%;
+            }
+            70% {
+                left: -200%;
+            }
+            75% {
+                left: -300%;
+            }
+            95% {
+                left: -300%;
+            }
+            100% {
+                left: -400%;
+            }
+        }*/
+/*how it works*/
+                                        
+@media (max-width:820px) {
+.howitwork-content {
+display: block !important;
+width: 100% !important;
+margin-bottom: 10px;
+}
+.details {
+width: 100% !important;
+margin-bottom: 10px;
+}
+}
+                                        
+                                        .how-it-works h3 {
+                                            font-size: 40px;
+                                            margin: 100px 0 30px 0;
+                                            color: #343434;
+                                        }
+                                        
+                                        .how-it-works p {
+                                            color: #b6b6b6;
+                                            font-size: 17px;
+                                            line-height: 1.5;
+                                            word-break: break-all
+                                        }
+                                        
+                                        .howitwork-content {
+                                            margin-top: 85px;
+                                            display: flex;
+                                            justify-content: space-evenly;
+                                        }
+                                        
+                                        .details {
+                                            width: 26%;
+                                            margin-bottom: 150px;
+                                        }
+                                        
+                                        .details h4 {
+                                            font-size: 25px;
+                                            font-weight: normal;
+                                            color: #5f6767;
+                                            margin-bottom: 0;
+                                        }
+                                        /*start gallery*/
+                                        
+                                        .gallery {
+                                            display: grid;
+                                            grid-template-columns: repeat(3, auto);
+                                        }
+                                        
+                                        .gallery img {
+                                            width: 100%;
+                                            height: 100%;
+                                        }
+                                        /*start  my accomplishment*/
+                                        
+                                        .myaccomplishment {
+                                            background-image: url(../images/cover_img_1.jpg);
+                                            height: 500px;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            background-attachment: fixed;
+                                        }
+                                        
+                                        .myaccomplishment h3 {
+                                            font-size: 40px;
+                                            margin: 100px 0 30px 0;
+                                            color: #fff;
+                                            padding-top: 100px;
+                                        }
+                                        
+                                        .myaccomplishment-body {
+                                            display: flex;
+                                            justify-content: space-evenly;
+                                            margin-top: 85px;
+                                        }
+                                        
+                                        .content h4 {
+                                            color: #a2dc4d;
+                                            font-size: 35px;
+                                            margin: 15px;
+                                        }
+                                        
+                                        .content p {
+                                            color: #8d8f90;
+                                            font-size: 15px;
+                                        }
+                                        /*start recent blog*/
+                                        
+                                        @media (max-width:820px) {
+                                            .recentblog-card {
+                                                display: block !important;
+                                                width: 100% !important;
+                                                margin-bottom: 10px;
+                                            }
+                                            .recentblog-body {
+                                                width: 100% !important;
+                                                margin-bottom: 10px;
+                                            }
+                                        }
+                                        
+                                        .recent-blog h3 {
+                                            font-size: 40px;
+                                            margin: 100px 0 30px 0;
+                                            color: #343434;
+                                        }
+                                        
+                                        .recent-blog p {
+                                            color: #b6b6b6;
+                                            font-size: 17px;
+                                            line-height: 1.5;
+                                            margin-bottom: 110px;
+                                        }
+                                        
+                                        .recentblog-card {
+                                            display: flex;
+                                            justify-content: space-evenly;
+                                        }
+                                        
+                                        .recentblog-body {
+                                            width: 27%;
+                                            height: 100%;
+                                        }
+                                        
+                                        .recentblog-body span {
+                                            color: #b6b6b6;
+                                            margin-left: 15px;
+                                        }
+                                        
+                                        .recentblog-body h4 {
+                                            font-size: 24px;
+                                            margin-left: 15px;
+                                            margin-top: 15px;
+                                        }
+                                        
+                                        .recentblog-body img {
+                                            width: 100%;
+                                            height: 60%;
+                                        }
+                                        
+                                        .card-details {
+                                            display: flex;
+                                            justify-content: space-between;
+                                        }
+                                        
+                                        .card-details h5 {
+                                            font-size: 20px;
+                                            background-color: #eee;
+                                            min-width: 15%;
+                                            text-align: center;
+                                            margin-top: -4px;
+                                            padding-top: 10px;
+                                            height: 70px;
+                                        }
+                                        
+                                        .card-details p {
+                                            width: 65%;
+                                        }
+                                        /*start my client says*/
+                                        
+                                        @media (max-width:820px) {
+                                            .myclientsay-content {
+                                                display: block !important;
+                                                width: 100% !important;
+                                                margin-bottom: 10px;
+                                            }
+                                            .myclient-say {
+                                                margin-bottom: 49px !important;
+                                            }
+                                            .deep-info {
+                                                width: 100% !important;
+                                            }
+                                            .deep-info::before {
+                                                content: "";
+                                                border: none !important;
+                                            }
+                                            .myclient-say {
+                                                min-height: 960px !important;
+                                            }
+                                            .info{
+                                                padding-bottom: 15px;!important;
+                                            }
+                                        }
+                                        @media (max-width:320px){
+                                            .myclient-say {
+                                                min-height: 1150px !important;
+                                            }
+                                        }
+                                        .myclient-say {
+                                            background-image: url(../images/cover_img_2.jpg);
+                                            min-height: auto;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            background-attachment: fixed;
+                                        }
+                                        
+                                        .myclient-say h3 {
+                                            font-size: 40px;
+                                            margin: 100px 0 30px 0;
+                                            color: #fff;
+                                            padding-top: 60px;
+                                        }
+                                        
+                                        .myclientsay-content {
+                                            display: flex;
+                                            justify-content: center;
+                                            gap: 30px;
+                                        }
+                                        
+                                        .myclientsay-content img {
+                                            width: 100px;
+                                            height: 100px;
+                                            border-radius: 50%;
+                                            margin-bottom: -15px;
+                                            margin-right: 5px;
+                                        }
+                                        
+                                        .deep-info::before {
+                                            content: "";
+                                            position: absolute;
+                                            border-bottom: 17px solid #fff;
+                                            border-left: 17px solid transparent;
+                                            border-right: 17px solid transparent;
+                                            top: -17px;
+                                            left: 175px;
+                                        }
+                                        
+                                        .info .deep-info {
+                                            background: #fff;
+                                            border-radius: 5px;
+                                            padding: 10px;
+                                            width: 370px;
+                                            margin-top: 15px;
+                                            margin-bottom: 100px;
+                                            position: relative;
+                                        }
+                                        
+                                        .info .deep-info h4 {
+                                            color: #717171;
+                                            font-size: 20px;
+                                            font-weight: lighter;
+                                            margin-bottom: 5px;
+                                        }
+                                        
+                                        .info .deep-info p {
+                                            color: #a1a1a1;
+                                            line-height: 1.8;
+                                            font-size: 20px;
+                                            font-weight: lighter;
+                                        }
+                                        /*Start Pricing*/
+                                        
+                                        @media (max-width: 992px) {
+                                            .pricing .price-table {
+                                                display: grid !important;
+                                                grid-template-columns: repeat(2, 50%)!important;
+                                            }
+                                            .table h5::before {
+                                                content: "";
+                                                position: static !important;
+                                                font-size: 47px !important;
+                                            }
+                                        }
+                                        
+                                        @media (max-width:820px) {
+                                            .pricing .price-table {
+                                                display: block !important;
+                                                width: 100% !important;
+                                            }
+                                            .table {
+                                                margin-bottom: 10px !important;
+                                            }
+                                            .table h5::before {
+                                                content: "";
+                                                position: static !important;
+                                                font-size: 47px !important;
+                                            }
+                                        }
+                                        
+                                        .pricing h3 {
+                                            font-size: 40px;
+                                            margin: 100px 0 30px 0;
+                                            color: #343434;
+                                        }
+                                        
+                                        .pricing p {
+                                            color: #b6b6b6;
+                                            font-size: 17px;
+                                            line-height: 1.5;
+                                            margin-bottom: 110px;
+                                        }
+                                        
+                                        .pricing .price-table {
+                                            display: flex;
+                                            justify-content: center;
+                                            gap: 45px;
+                                        }
+                                        
+                                        .price-table .table {
+                                            border: 1px solid #eee;
+                                            background: #f9f9f9;
+                                            padding: 25px;
+                                        }
+                                        
+                                        .table h4 {
+                                            font-size: 30px;
+                                            font-weight: normal;
+                                            margin: 0;
+                                        }
+                                        
+                                        .table h5 {
+                                            font-size: 60px;
+                                            color: #a2dc4d;
+                                            margin: 15px 0 0 0;
+                                            position: relative;
+                                            line-height: 55px;
+                                        }
+                                        
+                                        .table h5::before {
+                                            content: "$";
+                                            position: absolute;
+                                            left: 30px;
+                                            font-size: 30px;
+                                            bottom: 3px;
+                                        }
+                                        
+                                        .table p {
+                                            margin: 15px 0 0 0;
+                                        }
+                                        
+                                        .table span:last-of-type {
+                                            color: #999595;
+                                            font-size: 13px;
+                                            font-weight: bold;
+                                            margin: 0;
+                                        }
+                                        
+                                        .table button {
+                                            background: #a2dc4d;
+                                            border: 1px solid #a2dc4d;
+                                            color: #fff;
+                                            padding: 10px;
+                                            width: 60%;
+                                            margin-top: 24px;
+                                        }
+                                        /*Start Section Subscribe*/
+                                        
+                                        @media (max-width:1048px) {
+                                            .subscribe {
+                                                display: flex !important;
+                                                flex-direction: column !important;
+                                                border: 1px solid #eee !important;
+                                              
+                                                margin-bottom: 20px !important;
+                                            }
+                                            .subscribe h3 {
+                                                order: 1 !important;
+                                                text-align: center !important;
+                                                margin: 0 !important
+                                            }
+                                            .subscribe .subcribe-info {
+                                                order: 2 !important;
+                                                background: #fcfcfc !important;
+                                                text-align: center !important;
+                                                margin-right: 80px !important;
+                                            }
+                                            .subcribe-info form {
+                                                display: flex !important;
+                                                flex-direction: column !important;
+                                                align-items: center;
+                                                margin-left: 70px;
+                                            }
+                                            .subcribe-info form input {
+                                                width: 100%;
+                                                color: #000 !important;
+                                                min-width: 100% !important;
+                                                margin: 5px !important;
+                                            }
+                                            .subcribe-info form button {
+                                                min-width: 50%;
+                                            }
+                                           
+                                        }
+                                        
+                                        .subscribe {
+                                
+                                            margin-top: 90px;
+                                            display: flex;
+                                            gap: 50px;
+                                        }
+                                        
+                                        .subscribe h3 {
+                                            font-size: 100%;
+                                            padding-top: 25px;
+                                            font-size: 27px;
+                                            font-weight: lighter
+                                        }
+                                        
+                                        .subscribe .subcribe-info {
+                                            background: #232525;
+                                            min-width: 40%;
+                                            height: 150px;
+                                            padding-right: 10px;
+                                        }
+                                        
+.subcribe-info form {
+padding-top: 50px;
+}
+                                        
+.subcribe-info form input {
+min-width: 67%;
+background:
+transparent;
+color: #fff;
+font-size: 14px;
+margin: -7px;
+border: 1px solid
+#343434;
+padding: 10px;
+}
+                                        
+                                        .subcribe-info form button {
+                                            min-width: 30%;
+                                            padding: 11px;
+                                            background: #a2dc4d;
+                                            color: #fff;
+                                            border: 1px solid #a2dc4d
+                                        }
+                                        /*start summary*/
+                                        
+                                        @media (max-width: 992px) {
+                                            .summary {
+                                                display: grid !important;
+                                                grid-template-columns: repeat(2, 33%)!important;
+                                            }
+                                            .recent-blog-summary {
+                                                width: 100% !important;
+                                            }
+                                            .summary .about-landing i {
+                                                height: 10% !important;
+                                                line-height: 23px !important;
+                                            }
+                                        }
+                                        
+                                        @media (max-width:820px) {
+                                            .summary {
+                                                display: flex !important;
+                                            }
+                                            .recent-blog-summary,
+                                            .information {
+                                                display: none !important
+                                            }
+                                            .summary .about-landing i {
+                                                height: 10% !important;
+                                                line-height: 23px !important;
+                                            }
+                                        }
+                                        
+                                        .summary {
+                                            background: #232525;
+                                            display: flex;
+                                            justify-content: center;
+                                            gap: 90px;
+                                            padding-top: 75px;
+                                            padding-bottom: 70px;
+                                            margin-top: -1px;
+                                        }
+                                        
+                                        .summary h4 {
+                                            color: #e6e0e0;
+                                            font-size: 20px;
+                                        }
+                                        
+                                        .summary .about-landing p {
+                                            color: #999595;
+                                            line-height: 1.5;
+                                            font-size: 16px;
+                                        }
+                                        
+                                        .summary .about-landing i {
+                                            border: 1px solid #a2dc4d;
+                                            border-radius: 50%;
+                                            width: 10%;
+                                            height: 8%;
+                                            line-height: 24px;
+                                            text-align: center;
+                                            color: #a2dc4d;
+                                        }
+                                        
+                                        .information ul li {
+                                            list-style: none;
+                                            margin-left: -40px;
+                                            color: #999595;
+                                            padding: 7px;
+                                        }
+                                        
+                                        .information ul li i {
+                                            color: #a2dc4d;
+                                            font-size: 20px;
+                                        }
+                                        
+                                        .recent-blog-summary {
+                                            width: 20%;
+                                        }
+                                        
+                                        .recent-blog-summary .blog {
+                                            display: flex;
+                                            width: 100%
+                                        }
+                                        
+                                        .recent-blog-summary .blog img {
+                                            width: 30%;
+                                            margin-bottom: 20px;
+                                        }
+                                        
+                                        .recent-blog-summary .blog h5 {
+                                            margin: 0;
+                                            margin-left: 7px;
+                                            color: #e6e0e0;
+                                            font-size: 15px;
+                                            font-weight: initial;
+                                        }
+                                        
+                                        .recent-blog-summary .blog h5 span {
+                                            color: #999595;
+                                        }
+                                        
+                                        .contact-us p {
+                                            color: #999595;
+                                            font-size: 15px;
+                                        }
+                                        
+                                        .contact-us-info p {
+                                            color: #e6e0e0;
+                                        }
+                                        
+                                        .contact-us-info p i {
+                                            color: #a2dc4d;
+                                            font-size: 20px;
+                                        }
+                                        /*footer*/
+                                        
+                                        footer {
+                                            background: #0f0f0f;
+                                            color: #999595;
+                                            padding: 10px;
+                                            font-size: 15px;
+                                            line-height: 1.8;
+                                            letter-spacing: 1px;
+                                        }
+                                        /*stnader clases*/
+                                        
+                                        .text-center {
+                                            text-align: center;
+                                        }
+                                        @media (max-width:820px){
+                                            h3{
+                                                font-size:20px !important;
+                                            }
+                                        }
